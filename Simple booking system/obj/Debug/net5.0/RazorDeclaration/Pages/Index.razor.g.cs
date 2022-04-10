@@ -142,7 +142,6 @@ using Simple_booking_system.DataAccess;
             Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopCenter;
             Snackbar.Add("Booking error!", Severity.Error);
         }
-        StateHasChanged();
     }
 
   
@@ -154,33 +153,10 @@ using Simple_booking_system.DataAccess;
     }
 
 
-    // public void PopulateResourceTable()
-    // {
-    //     Resource resource = new Resource();
-    //     resource.Name = "Truck";
-    //     resource.Quantity = 5;
-    //
-    //     ResourceService.AddResourceAsync(resource);
-    // }
+   
 
 
-    // <div class="modal" tabindex="-1" role="dialog" style="display: block">
-    //     <div class="modal-dialog">
-    //         <div class="modal-content">
-    //             <div class="modal-header">
-    //                 <h5 class="modal-title">Resource booking</h5>
-    //                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="@ClosePopup"></button>
-    //             </div>
-    //             <div class="modal-body">
-    //                 <p>Modal body text goes here.</p>
-    //             </div>
-    //             <div class="modal-footer">
-    //                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-    //                 <button type="button" class="btn btn-primary">Save changes</button>
-    //             </div>
-    //         </div>
-    //     </div>
-    // </div>
+   
 
 
 

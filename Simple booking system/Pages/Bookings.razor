@@ -1,0 +1,58 @@
+﻿@page "/Bookings"
+@using Simple_booking_system.Model
+@using Simple_booking_system.Data
+@inject IBookingService BookingService
+<h3>Bookings</h3>
+@if (bookingsToShow == null)
+{
+    <p>
+        <em>Loadind...</em>
+    </p>
+}
+else if (!bookingsToShow.Any())
+{
+    <p>
+        <em> No items exist. Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Date From</th>
+            <th>Date To</th>
+            <th>Booked Quantity</th>
+            <th>Resource Id</th>
+            
+        </tr>
+        </thead>
+
+        <tbody>
+        @foreach (var item in bookingsToShow)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.DateFrom</td>
+                <td>@item.DateTo</td>
+                <td>@item.BookedQuantity</td>
+                 <td>@item.ResourceId</td>
+               
+            </tr>
+        }
+        </tbody>
+    </table>
+   
+}
+
+@code {
+    private IList<Booking> bookingsToShow;
+
+    protected override async Task OnInitializedAsync()
+    {
+        bookingsToShow = await BookingService.GetBookings();
+    }
+
+
+}

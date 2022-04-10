@@ -43,7 +43,12 @@ namespace Simple_booking_system.Data
             return context.Bookings.Where(b => b.ResourceId == id).ToList();
             
         }
-        
+
+        public async Task<List<Booking>> GetBookings()
+        {
+            return context.Bookings.ToList();
+        }
+
         private async Task SaveChanges()
         {
             await context.SaveChangesAsync();

@@ -87,3 +87,5 @@ C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Deb
 C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.JSInterop.dll
 C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\MudBlazor.dll
 C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\Pages\Bookings.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Pages\Bookings.razor.g.cs

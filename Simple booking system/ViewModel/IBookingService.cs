@@ -8,5 +8,6 @@ namespace Simple_booking_system.Data
     {
         Task<bool> AddBookingAsync(Booking booking);
         Task<List<Booking>> GetBookingsByResourceId(int id);
+        Task<List<Booking>> GetBookings();
     }
 }
