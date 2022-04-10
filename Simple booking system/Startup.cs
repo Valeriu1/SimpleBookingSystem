@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Simple_booking_system.Data;
 using Simple_booking_system.DataAccess;
+using MudBlazor.Services;
 
 namespace Simple_booking_system
 {
@@ -29,6 +30,7 @@ namespace Simple_booking_system
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddMudServices();
             services.AddScoped<IBookingService, BookingService>();
             services.AddScoped<IResourceService, ResourceService>();
             services.AddDbContext<BookingDbContext>();

@@ -1,3 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/MudBlazor" Path="C:\Users\sarks\.nuget\packages\mudblazor\5.0.0\build\..\staticwebassets\" />
   <ContentRoot BasePath="/" Path="C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>

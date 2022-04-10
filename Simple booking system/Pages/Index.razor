@@ -3,6 +3,7 @@
 @inject IBookingService BookingService
 @using Simple_booking_system.Model
 @using Simple_booking_system.Data
+@inject ISnackbar Snackbar
 @using Simple_booking_system.DataAccess
 
 <h3>Resources</h3>
@@ -87,7 +88,7 @@ else
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" data-dismiss="modal" @onclick="@AddBooking">Book</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal" @onclick="@SubmitBooking">Book</button>
                 </div>
             </div>
         </div>
@@ -101,6 +102,22 @@ else
     private async Task<bool> AddBooking()
     {
        return await BookingService.AddBookingAsync(booking);
+    }
+
+    private async Task SubmitBooking()
+    {
+        bool status = await AddBooking();
+        if ( status)
+        {
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopCenter;
+            Snackbar.Add("Booking successful!", Severity.Success);
+        }
+        else
+        {
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopCenter;
+            Snackbar.Add("Booking error!", Severity.Error);
+        }
+        StateHasChanged();
     }
 
   

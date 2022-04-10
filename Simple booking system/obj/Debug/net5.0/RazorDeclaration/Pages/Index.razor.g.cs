@@ -83,6 +83,13 @@ using Simple_booking_system.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\_Imports.razor"
+using MudBlazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 4 "C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\Pages\Index.razor"
 using Simple_booking_system.Model;
 
@@ -97,7 +104,7 @@ using Simple_booking_system.Data;
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\Pages\Index.razor"
+#line 7 "C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\Pages\Index.razor"
 using Simple_booking_system.DataAccess;
 
 #line default
@@ -112,7 +119,7 @@ using Simple_booking_system.DataAccess;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 97 "C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\Pages\Index.razor"
+#line 98 "C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\Pages\Index.razor"
        
     private IList<Resource> resourcesToShow;
     private Booking booking { get; set; } = new Booking();
@@ -120,6 +127,22 @@ using Simple_booking_system.DataAccess;
     private async Task<bool> AddBooking()
     {
        return await BookingService.AddBookingAsync(booking);
+    }
+
+    private async Task SubmitBooking()
+    {
+        bool status = await AddBooking();
+        if ( status)
+        {
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopCenter;
+            Snackbar.Add("Booking successful!", Severity.Success);
+        }
+        else
+        {
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopCenter;
+            Snackbar.Add("Booking error!", Severity.Error);
+        }
+        StateHasChanged();
     }
 
   
@@ -165,6 +188,7 @@ using Simple_booking_system.DataAccess;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ISnackbar Snackbar { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IBookingService BookingService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IResourceService ResourceService { get; set; }
     }

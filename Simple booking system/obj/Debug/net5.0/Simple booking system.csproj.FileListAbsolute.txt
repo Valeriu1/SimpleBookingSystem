@@ -78,3 +78,12 @@ C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Deb
 C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\MudBlazor.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\System.IO.Pipelines.dll
