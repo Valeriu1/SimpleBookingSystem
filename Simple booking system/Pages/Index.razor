@@ -1,0 +1,145 @@
+@page "/"
+@inject IResourceService ResourceService
+@inject IBookingService BookingService
+@using Simple_booking_system.Model
+@using Simple_booking_system.Data
+@using Simple_booking_system.DataAccess
+
+<h3>Resources</h3>
+
+@if (resourcesToShow == null)
+{
+    <p>
+        <em>Loadind...</em>
+    </p>
+}
+else if (!resourcesToShow.Any())
+{
+    <p>
+        <em> No items exist. Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        @foreach (var item in resourcesToShow)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <button class="btn btn-info" data-toggle="modal" @onclick="@(e =>  @booking.ResourceId = @item.Id)" data-target="#exampleModalCenter">
+                        <em>Book here</em>
+                    </button>
+
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Resource </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <EditForm Model="booking" >
+                        <table class="table">
+
+                            <tr>
+                                <td>Date From</td>
+                                <td>
+                                    <InputDate @bind-Value="booking.DateFrom"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Date To</td>
+                                <td>
+                                    <InputDate @bind-Value="booking.DateTo"/>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>Quantity</td>
+                                <td><InputNumber @bind-Value="booking.BookedQuantity" ></InputNumber></td>
+                            </tr>
+                            
+
+                        </table>
+
+                    </EditForm>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal" @onclick="@AddBooking">Book</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private IList<Resource> resourcesToShow;
+    private Booking booking { get; set; } = new Booking();
+
+    private async Task<bool> AddBooking()
+    {
+       return await BookingService.AddBookingAsync(booking);
+    }
+
+  
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        resourcesToShow = await ResourceService.GetResourcesAsync();
+    }
+
+
+    // public void PopulateResourceTable()
+    // {
+    //     Resource resource = new Resource();
+    //     resource.Name = "Truck";
+    //     resource.Quantity = 5;
+    //
+    //     ResourceService.AddResourceAsync(resource);
+    // }
+
+
+    // <div class="modal" tabindex="-1" role="dialog" style="display: block">
+    //     <div class="modal-dialog">
+    //         <div class="modal-content">
+    //             <div class="modal-header">
+    //                 <h5 class="modal-title">Resource booking</h5>
+    //                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="@ClosePopup"></button>
+    //             </div>
+    //             <div class="modal-body">
+    //                 <p>Modal body text goes here.</p>
+    //             </div>
+    //             <div class="modal-footer">
+    //                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    //                 <button type="button" class="btn btn-primary">Save changes</button>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </div>
+
+
+
+}

@@ -1,0 +1,80 @@
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\appsettings.json
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.StaticWebAssets.xml
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.exe
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.deps.json
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.runtimeconfig.json
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.runtimeconfig.dev.json
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\ref\Simple booking system.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.pdb
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.Views.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Simple booking system.Views.pdb
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.csproj.AssemblyReference.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.AssemblyInfoInputs.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.AssemblyInfo.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.csproj.CoreCompileInputs.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorComponent.input.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorComponent.output.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\RazorDeclaration\Simple booking system.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.TagHelpers.input.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.TagHelpers.output.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorCoreGenerate.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorAssemblyInfo.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorAssemblyInfo.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\staticwebassets\Simple booking system.StaticWebAssets.Manifest.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\staticwebassets\Simple booking system.StaticWebAssets.xml
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\scopedcss\bundle\Simple booking system.styles.css
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\scopedcss\projectbundle\Simple booking system.bundle.scp.css
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorTargetAssemblyInfo.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.RazorTargetAssemblyInfo.cs
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.Views.pdb
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\ref\Simple booking system.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.pdb
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.genruntimeconfig.cache
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\obj\Debug\net5.0\Simple booking system.csproj.CopyComplete
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Humanizer.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\sarks\RiderProjects\Simple booking system\Simple booking system\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
